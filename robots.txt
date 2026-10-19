@@ -1,5 +1,5 @@
 # Auto Schem - Free Donut SMP Schematic Builder Mod
-# https://autoschem.net
+# https://autoschm.online
 
 User-agent: *
 Allow: /
@@ -9,7 +9,7 @@ Allow: /css/
 Allow: /js/
 
 # Sitemap location
-Sitemap: https://autoschem.net/sitemap.xml
+Sitemap: https://autoschm.online/sitemap.xml
 
 # Crawl-delay (be generous to crawlers)
 Crawl-delay: 1
