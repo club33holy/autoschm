@@ -156,14 +156,29 @@ document.addEventListener('DOMContentLoaded', () => {
   downloadBtns.forEach(btn => {
     btn.addEventListener('click', function(e) {
       e.preventDefault();
-      const filename = this.dataset.filename || 'AutoSchem-Fabric-1.21.11-v1.4.2.jar';
+      const filename = this.dataset.filename || 'AutoSchm-1.21.11.jar';
       const targetFilenameEl = document.getElementById('dlModalFilename');
       if (targetFilenameEl) targetFilenameEl.textContent = filename;
+
+      // Update modal direct download link
+      const directLink = document.getElementById('dlModalDirectLink');
+      if (directLink) {
+        directLink.href = 'downloads/' + filename;
+        directLink.download = filename;
+      }
+
+      // Automatically trigger browser download
+      const tempLink = document.createElement('a');
+      tempLink.href = 'downloads/' + filename;
+      tempLink.download = filename;
+      document.body.appendChild(tempLink);
+      tempLink.click();
+      document.body.removeChild(tempLink);
 
       if (dlModal) {
         dlModal.classList.add('active');
       }
-      showToast(`Downloading clean: ${filename}`, '⬇️');
+      showToast(`Downloading: ${filename}`, '⬇️');
       audio.playSuccess();
     });
   });

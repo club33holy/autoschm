@@ -1004,8 +1004,8 @@
               </div>
 
               <button class="btn btn-primary btn-lg btn-download-action"
-                      data-filename="AutoSchem-Fabric-1.21.11-v1.4.2.jar"
-                      data-sha="9f82d1c7e2b34a5d8f90c1e82b7c6a5d4e3f21a0b9c8">
+                      data-filename="AutoSchm-1.21.11.jar"
+                      data-sha="82455b71371c9994c257754e16e474b92ab3aa36a0f600e54e4f59f01162fbde">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
                 <span>Download Auto Schem (.jar)</span>
               </button>
@@ -1452,7 +1452,7 @@
       </div>
       <h3 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #4ade80;">Download Queued</h3>
       <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 1.5rem;">
-        Your file <code id="dlModalFilename" style="color: #86efac; font-family: var(--font-mc); font-size: 0.75rem;">AutoSchem-Fabric-1.21.11-v1.4.2.jar</code> is clean &amp; ready.
+        Your file <code id="dlModalFilename" style="color: #86efac; font-family: var(--font-mc); font-size: 0.75rem;">AutoSchm-1.21.11.jar</code> is clean &amp; ready.
       </p>
 
       <div style="background: #0a0c12; padding: 1rem; border-radius: var(--radius-sm); border: 1px solid #333d54; margin-bottom: 1.5rem;">
@@ -1461,7 +1461,7 @@
           <button class="copy-btn" id="copyShaBtn">Copy Hash</button>
         </div>
         <div id="dlModalSha" style="font-family: var(--font-mono); font-size: 0.75rem; word-break: break-all; color: var(--text-muted);">
-          9f82d1c7e2b34a5d8f90c1e82b7c6a5d4e3f21a0b9c8
+          82455b71371c9994c257754e16e474b92ab3aa36a0f600e54e4f59f01162fbde
         </div>
       </div>
 
@@ -1469,7 +1469,10 @@
         <strong>Quick Tip:</strong> Remember to also install <strong>Fabric API</strong> and <strong>Baritone</strong> for 1.21.11 into your <code>.minecraft/mods</code> folder!
       </div>
 
-      <div style="display: flex; justify-content: flex-end;">
+      <div style="display: flex; justify-content: flex-end; gap: 0.5rem; align-items: center;">
+        <a id="dlModalDirectLink" href="downloads/AutoSchm-1.21.11.jar" download class="btn btn-secondary btn-sm">
+          <span>Manual Download</span>
+        </a>
         <button class="btn btn-primary btn-sm" onclick="document.getElementById('downloadSuccessModal').classList.remove('active')">
           <span>Done</span>
         </button>
