@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 24" width="64" height="24" preserveAspectRatio="none">
+  <!-- Dirt Background -->
+  <rect x="0" y="0" width="64" height="24" fill="#573d26"/>
+  
+  <!-- Dirt Texture Pixels -->
+  <rect x="4" y="16" width="4" height="4" fill="#432d1a"/>
+  <rect x="12" y="12" width="4" height="4" fill="#6a4c31"/>
+  <rect x="20" y="16" width="4" height="4" fill="#432d1a"/>
+  <rect x="32" y="14" width="4" height="4" fill="#6a4c31"/>
+  <rect x="44" y="18" width="4" height="4" fill="#432d1a"/>
+  <rect x="52" y="12" width="4" height="4" fill="#6a4c31"/>
+
+  <!-- Grass Top Base -->
+  <rect x="0" y="0" width="64" height="6" fill="#5b8e32"/>
+  <rect x="0" y="0" width="64" height="2" fill="#72ab3d"/>
+  
+  <!-- Grass Overhang Jagged Pixels -->
+  <rect x="0" y="6" width="4" height="4" fill="#4c7729"/>
+  <rect x="4" y="6" width="4" height="2" fill="#5b8e32"/>
+  <rect x="8" y="6" width="4" height="5" fill="#4c7729"/>
+  <rect x="12" y="6" width="4" height="3" fill="#5b8e32"/>
+  <rect x="16" y="6" width="4" height="6" fill="#4c7729"/>
+  <rect x="20" y="6" width="4" height="2" fill="#5b8e32"/>
+  <rect x="24" y="6" width="4" height="5" fill="#4c7729"/>
+  <rect x="28" y="6" width="4" height="3" fill="#5b8e32"/>
+  <rect x="32" y="6" width="4" height="6" fill="#4c7729"/>
+  <rect x="36" y="6" width="4" height="2" fill="#5b8e32"/>
+  <rect x="40" y="6" width="4" height="5" fill="#4c7729"/>
+  <rect x="44" y="6" width="4" height="4" fill="#5b8e32"/>
+  <rect x="48" y="6" width="4" height="6" fill="#4c7729"/>
+  <rect x="52" y="6" width="4" height="2" fill="#5b8e32"/>
+  <rect x="56" y="6" width="4" height="5" fill="#4c7729"/>
+  <rect x="60" y="6" width="4" height="3" fill="#5b8e32"/>
+</svg>

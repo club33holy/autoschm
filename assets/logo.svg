@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="cubeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="topFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="leftFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="rightFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e1065" />
+      <stop offset="100%" stop-color="#090a10" />
+    </linearGradient>
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="32" cy="32" r="24" fill="#8b5cf6" opacity="0.25" filter="url(#neonGlow)"/>
+  
+  <!-- Outer Holographic Wireframe -->
+  <polygon points="32,4 58,18 58,46 32,60 6,46 6,18" stroke="url(#cubeGrad)" stroke-width="1.5" stroke-dasharray="3,2" fill="none" opacity="0.6"/>
+
+  <!-- Isometric Isometric Voxel Cube Faces -->
+  <!-- Top Face -->
+  <polygon points="32,10 52,21 32,32 12,21" fill="url(#topFace)" opacity="0.85" stroke="#38bdf8" stroke-width="1.5" stroke-linejoin="round"/>
+  
+  <!-- Left Face -->
+  <polygon points="12,21 32,32 32,54 12,43" fill="url(#leftFace)" stroke="#06b6d4" stroke-width="1.5" stroke-linejoin="round"/>
+  
+  <!-- Right Face -->
+  <polygon points="32,32 52,21 52,43 32,54" fill="url(#rightFace)" stroke="#a855f7" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Futuristic Holographic Grid Lines inside Top Face -->
+  <line x1="22" y1="15.5" x2="42" y2="26.5" stroke="#ffffff" stroke-width="0.8" opacity="0.6"/>
+  <line x1="42" y1="15.5" x2="22" y2="26.5" stroke="#ffffff" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Energy Core Pulse in center -->
+  <circle cx="32" cy="32" r="3.5" fill="#00f2fe" filter="url(#neonGlow)"/>
+  
+  <!-- Corner Sparkles -->
+  <circle cx="32" cy="10" r="1.5" fill="#ffffff" />
+  <circle cx="52" cy="21" r="1.5" fill="#ffffff" />
+  <circle cx="12" cy="21" r="1.5" fill="#ffffff" />
+  <circle cx="32" cy="54" r="1.5" fill="#ffffff" />
+</svg>

@@ -1,0 +1,41 @@
+{
+  "name": "Auto Schem - Free Donut SMP Schematic Builder Mod",
+  "short_name": "Auto Schem",
+  "description": "The #1 free automatic schematic placement mod for Donut SMP and Minecraft Fabric 1.21.11. Baritone powered, VirusTotal 0/72 clean. Download free.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e17",
+  "theme_color": "#0a0e17",
+  "orientation": "any",
+  "categories": ["games", "utilities"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Download Auto Schem",
+      "short_name": "Download",
+      "description": "Download Auto Schem v1.4.2 for Minecraft Fabric 1.21.11",
+      "url": "/#downloads"
+    },
+    {
+      "name": "Features",
+      "short_name": "Features",
+      "description": "View Auto Schem core features for Donut SMP",
+      "url": "/#features"
+    },
+    {
+      "name": "Security Report",
+      "short_name": "Security",
+      "description": "View 0/72 VirusTotal scan results",
+      "url": "/#security"
+    }
+  ]
+}

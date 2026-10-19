@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://autoschem.net/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://autoschem.net/assets/og-preview.png</image:loc>
+      <image:title>Auto Schem - Free Donut SMP Schematic Builder Mod for Minecraft Fabric 1.21.11</image:title>
+      <image:caption>Auto Schem automated schematic placement mod interface for Donut SMP Minecraft servers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://autoschem.net/assets/hero-schematic.jpg</image:loc>
+      <image:title>Auto Schem Hero Preview - Schematic Auto Builder for Donut SMP</image:title>
+      <image:caption>Automated schematic building in Minecraft Fabric 1.21.11 on Donut SMP server</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://autoschem.net/assets/showcase-cathedral.jpg</image:loc>
+      <image:title>Auto Schem Cathedral Build - Donut SMP Auto Builder Showcase</image:title>
+      <image:caption>Massive cathedral structure built automatically using Auto Schem on Donut SMP</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://autoschem.net/assets/showcase-industrial.jpg</image:loc>
+      <image:title>Auto Schem Industrial Build - Minecraft Fabric 1.21.11 Automated Construction</image:title>
+      <image:caption>Industrial factory auto-built with Auto Schem schematic placer on Donut SMP</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://autoschem.net/assets/showcase-monument.jpg</image:loc>
+      <image:title>Auto Schem Monument - Free Donut SMP Building Mod</image:title>
+      <image:caption>Monument mega-structure placed automatically using Auto Schem Baritone builder</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://autoschem.net/#features</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://autoschem.net/#downloads</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://autoschem.net/#security</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://autoschem.net/#how-it-works</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://autoschem.net/#docs</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+</urlset>
